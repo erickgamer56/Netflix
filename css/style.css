@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #141414;
+    overflow-y:hidden;
+}
+.init{
+    background-color: #141414;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 6;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img120{
+    margin-top: 19px;
+    margin-left: 54px;
+}
+.name{
+    font-family: arial;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.addbox{
+    width: 141px;
+    height: 141px;
+    background-color: rgb(46, 46, 46);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-size: cover;
+    border: 3px solid rgba(255, 255, 255, 0);
+}
+
+.fa-plus{
+    color: white;
+    font-size: 35px;
+}
+.color{
+    color: #7f7f64;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.color2{
+    color: #000000;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.allboxadd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    margin: 6px;
+    order: -1;
+}
+.allboxadd:hover .color{
+    color: white;
+}
+.allboxadd:hover .color2{
+    color: white;
+}
+.allboxadd:hover .addbox{
+    border: 3px solid white;
+}
+.addname{
+    width: 650px;
+    height: 400px;
+    background-color: rgba(85, 85, 85, 0.678);
+    position: absolute;
+    display: none;
+    border: 1px solid black;
+    box-shadow: 25px 25px 25px black;
+    backdrop-filter: blur(6px);
+}
+.profileimg{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputname{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.name2{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.wod{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    display: flex;
+}
+.input input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    width: 200px;
+    height: 35px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+#fbtn{
+    width: 160px;
+    height: 45px;
+    color:black;
+    font-family: arial;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: transparent;
+    margin-top: 30px;
+    
+}
+.btng{
+    width: 160px;
+    height: 45px;
+    color:black;
+    font-family: arial;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: transparent;
+    margin-top: 30px;
+}
+.btng:hover{
+    border: 2px solid rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+}
+#fbtn:hover{
+    border: 2px solid rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+}
+.fa-times-circle{
+    color: white;
+    font-size: 30px;
+    margin: 8px;
+    cursor: pointer;
+}
+.add{
+    display: flex;
+}
+#fbtn2{
+    display: none;
+}
+.g-signin2{
+    margin: 20px;
+}
+.menu{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 66px;
+    background-color: black;
+    z-index: 2;
+}
+.ini {
+    display: flex;
+    align-items: center;
+}
+.ul{
+    display: flex;
+}
+.ul li{
+    list-style-type: none;
+}
+.a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4px;
+    font-size: 14px;
+    color: #b3b3b3;
+    transition: color .6s ease;
+}
+.a:hover{
+    color: #7C7E76;
+}
+.active:hover{
+    color: white;
+}
+.active{
+    color: white;
+    font-weight: bold;
+}
+.box{
+    width: 35px;
+    height: 35px;
+    border: 2px solid black;
+    background-color: white;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 6px;
+}
+.ini,.profile{
+    margin: 10px;
+}
+.profile{
+    margin-right: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.arrow{
+    transition: transform .6s ease;
+}
+.profile:hover .arrow{
+    transform: rotate(180deg);
+}
+.profile:hover ~ .boxa{
+    visibility: visible;
+    opacity: 1;
+}
+.boxa:hover{
+    visibility: visible;
+    opacity: 1;
+}
+.boxa{
+    width: 174px;
+    height: 319px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 70px;
+    margin-right: 40px;
+    transition: opacity .6s ease;
+    visibility: hidden;
+    opacity: 0;
+}
+.boxa::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    top: -20px;
+}
+.profi{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 15px;
+}
+#profi{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    margin-right: 2px;
+}
+#profi1{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    margin-right: 2px;
+}
+#profii{
+    display: none;
+}
+#nome1{
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+#nome2{
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.op{
+    margin-top: 15px;
+    margin-left: 9px ;
+}
+.op li{
+    list-style-type: none;
+}
+.op a{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.op a:hover{
+    text-decoration: 1px solid white;
+}

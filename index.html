@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="inici">Netflix</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/into.css">
+    <meta name="google-signin-client_id" content="225025604893-umgksv7jtca7r41m0ufrgmjo58sueoc7.apps.googleusercontent.com">
+</head>
+<body id="body">
+    <div class="init" id="init">
+        <input type="file" id="file" style="display: none;">
+        <div class="addname" id="addnm">
+            <div class="wod">
+                <div class="profileimg">
+                    <label for="file">
+                    <div class="allboxadd" id="addimg">
+                        <div class="addbox" id="addbox">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <div class="color2">Colocar Foto</div>
+                    </div>
+                    </label>
+                </div>
+                <div class="inputname">
+                    <div class="name2">Coloque seu nome!</div>
+                    <div class="input"><input type="text" id="inp" maxlength="15"></div>
+                    <div class="con">
+                        <input type="button" value="CONCLUIDO"  id="fbtn">
+                        <input type="button" value="Limite Atingido"  id="fbtn2" class="btng">
+                    </div>
+                </div>
+                <i class="fas fa-times-circle" id="fecha"></i>
+            </div>
+        </div>
+        <nav class="logo">
+            <img src="img/logo.png" class="img120">
+            <div class="g-signin2" data-onsuccess="onSignIn" id="sing"></div>
+        </nav>
+        <div class="number" id="num"></div>
+        <div class="init2">
+            <div class="name">Quem está assistindo?</div>
+        </div>
+        <div class="add" id="addadd">
+            <div class="allboxadd" id="add">
+                <div class="addbox">
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="color">Criar Perfil</div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <nav class="menu">
+            <div class="ini">
+                <img src="img/logo.png">
+                <ul class="ul">
+                    <li><a href="#" class="a active" id="a1">Inicio</a></li>
+                    <li><a href="#" class="a"        id="a2">Séries</a></li>
+                    <li><a href="#" class="a"        id="a3">Filmes</a></li>
+                    <li><a href="#" class="a"        id="a4">Bombando</a></li>
+                    <li><a href="#" class="a"        id="a5">Minha lista</a></li>
+                </ul>
+            </div>
+            <div class="profile">
+                <div class="box" id="box"></div>
+                <div class="arrow"><img src="img/arrow.png"></div>
+            </div>
+            <div class="boxa">
+                <div class="profi">
+                    <img src="" id="profi">
+                    <h3 id="nome1"></h3>
+                </div>
+                <div class="profi" id="profii">
+                    <img src="" id="profi1">
+                    <h3 id="nome2"></h3>
+                </div>
+                <hr>
+                <div class="op">
+                    <ul>
+                        <li><a href="#" id="conta">Conta</a></li>
+                        <li><a href="https://help.netflix.com/pt/">Centro de ajuda</a></li>
+                        <li><a href="#"  onclick="signOut();" id="sair">Sair da netflix</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="into">
+            <div class="n40">
+                <div class="n51">
+                    <div>
+                        <h1>RESGATE</h1>
+                        <div class="org">
+                            <a href="#"><input type="button" value="Assistir" class="assi"></a>
+                            <img src="img/logo2.png" width="40px" height="40px">
+                            <h4>NetFlix Original Séries</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="intre">
+            <div>
+                <div class="h1"><h1>Filmes</h1></div>
+                <div class="divs">
+                    <div class="div"><div class="name21">Alerta Vermelho</div></div>
+                    <div class="div"><div class="name21">Homem-Aranha: De Volta ao Lar</div></div>
+                    <div class="div"><div class="name21">White Snake 2</div></div>
+                    <div class="div"><div class="name21">A Chegada</div></div>
+                    <div class="div"><div class="name21">Os Mercenários 2</div></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/b6ad051501.js" crossorigin="anonymous"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</body>
+</html>
