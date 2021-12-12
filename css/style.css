@@ -5,6 +5,7 @@
 body{
     background-color: #141414;
     overflow-y:hidden;
+    overflow-x: hidden;
 }
 .init{
     background-color: #141414;

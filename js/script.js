@@ -184,6 +184,7 @@ function onSignIn(googleUser) {
     allboxadd.appendChild(addbox)
     allboxadd.appendChild(color)
     document.getElementById("sing").style.display="none"
+    document.getElementById("logo").style.justifyContent="start"
     var dem = document.getElementById("dentro")
     var k0 = document.createElement("div")
     k0.setAttribute("class" , "profi")

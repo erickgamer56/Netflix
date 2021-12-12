@@ -71,6 +71,7 @@ body::-webkit-scrollbar-thumb{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .div{
     width: 256px;
@@ -275,4 +276,79 @@ body::-webkit-scrollbar-thumb{
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 25px;
     margin-bottom: 15px;
+}
+@media (max-width:1005px){
+    .n40{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width:655px){
+    .addname{
+        width: 100%;
+    }
+    .wod{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #fecha{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .name2{
+        font-size: 15px;
+    }
+    #ne{
+        position: absolute;
+        top: 
+        0;
+    }
+    .profileimg{
+        display: none;
+    }
+    .inputname{
+        width: 100%;
+    }
+}
+@media (max-width:541px){
+    #a5,#a6{
+        display: none;
+    }
+    .n51 h1{
+        font-size: 100px;
+    }
+}
+@media (max-width:437px){
+    .div{
+        width: 95%;
+        height: 200px;
+    }
+    .n51 h1{
+        font-size: 70px;
+    }
+    .org h4{
+        font-size: 8px;
+    }
+    #a1,#a2,#a3,#a4,#a5,#a6{
+        display: none;
+    }
+}
+@media (max-width:414px){
+    .name{
+        font-size: 24px;
+    }
+    .addbox{
+        width: 80px;
+        height: 80px;
+    }
+}
+@media (max-width:344px){
+    .name{
+        font-size: 24px;
+    }
+    .addbox{
+        width: 50px;
+        height: 50px;
+    }
 }
