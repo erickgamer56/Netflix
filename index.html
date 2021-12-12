@@ -53,6 +53,42 @@
         </div>
     </div>
     <main>
+        <div class="persona" id="persona">
+            <input type="file" id="file2" style="display: none;">
+            <div class="flex">
+                <div class="perfi2">
+                    <label for="file2">
+                        <div class="allboxadd" id="addimg">
+                            <div class="addbox b2" id="addbox2">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                            <div class="color2">Colocar Foto</div>
+                        </div>                        
+                    </label>
+                    <div class="btn">
+                        <input type="button" value="CONCLUIDO" id="btn5">
+                    </div>
+                </div>
+                <div class="perfi3">
+                    <i class="fas fa-times-circle" id="fecha2"></i>
+                    <div class="flex2m">
+                        <h1 class="mudarn">Coloque seu nome!</h1>
+                        <input type="text" id="mudar" placeholder="Mude Seu Nome">
+                    </div>
+                    <div class="pho" id="pho">
+                        <div class="photo" id="p1"></div>
+                        <div class="photo" id="p2"></div>
+                        <div class="photo" id="p3"></div>
+                        <div class="photo" id="p4"></div>
+                        <div class="photo" id="p5"></div>
+                        <div class="photo" id="p6"></div>
+                    </div>
+                </div>
+                <div class="pios">
+                    Required google acount -- (just to modify google account)
+                </div>
+            </div>
+        </div>
         <nav class="menu">
             <div class="ini">
                 <img src="img/logo.png">
@@ -68,20 +104,13 @@
                 <div class="box" id="box"></div>
                 <div class="arrow"><img src="img/arrow.png"></div>
             </div>
-            <div class="boxa">
-                <div class="profi">
-                    <img src="" id="profi">
-                    <h3 id="nome1"></h3>
-                </div>
-                <div class="profi" id="profii">
-                    <img src="" id="profi1">
-                    <h3 id="nome2"></h3>
-                </div>
-                <hr>
-                <div class="op">
+            <div class="boxa" id="dentro">
+                <hr style="order: 2;">
+                <div class="op" style="order: 3;">
                     <ul>
-                        <li><a href="#" id="conta">Conta</a></li>
+                        <li><a href="#" id="conta">Contas</a></li>
                         <li><a href="https://help.netflix.com/pt/">Centro de ajuda</a></li>
+                        <li><a href="#" id="abrir">Personalizar Perfil</a></li>
                         <li><a href="#"  onclick="signOut();" id="sair">Sair da netflix</a></li>
                     </ul>
                 </div>

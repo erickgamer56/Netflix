@@ -262,8 +262,11 @@ body{
     margin-top: 70px;
     margin-right: 40px;
     transition: opacity .6s ease;
+    display: flex;
+    flex-direction: column;
     visibility: hidden;
     opacity: 0;
+
 }
 .boxa::after{
     content: "";
