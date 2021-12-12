@@ -11,23 +11,23 @@ window.addEventListener("load",function(){
     const random = (num) => Math.floor(Math.random() * num)
     var radom = random(4)
     if(radom == 0){
-        addbox.style.backgroundImage="url('../img/n1.jpg')"
-        localStorage.setItem("img", "../img/n1.jpg")
+        addbox.style.backgroundImage="url('img/n1.jpg')"
+        localStorage.setItem("img", "img/n1.jpg")
         document.getElementById("num").innerHTML = radom
     }
     else if(radom == 1){
-        addbox.style.backgroundImage="url('../img/n2.jpg')"
-        localStorage.setItem("img", "../img/n2.jpg")
+        addbox.style.backgroundImage="url('img/n2.jpg')"
+        localStorage.setItem("img", "img/n2.jpg")
         document.getElementById("num").innerHTML = radom
     }
     else if(radom == 2){
-        addbox.style.backgroundImage="url('../img/n3.jpg')"
-        localStorage.setItem("img", "../img/n3.jpg")
+        addbox.style.backgroundImage="url('img/n3.jpg')"
+        localStorage.setItem("img", "img/n3.jpg")
         document.getElementById("num").innerHTML = radom 
     }
     else if(radom == 3){
-        addbox.style.backgroundImage="url('../img/n4.png')"
-        localStorage.setItem("img", "../img/n4.png")
+        addbox.style.backgroundImage="url('img/n4.png')"
+        localStorage.setItem("img", "img/n4.png")
         document.getElementById("num").innerHTML = radom 
     }
 })
@@ -82,10 +82,8 @@ document.getElementById("fbtn").addEventListener("click",function(){
             document.getElementById("nome2").innerHTML = localStorage.getItem("nome2")
             document.getElementById("inici").innerHTML="Início -- Netfllix"
             document.getElementById("body").style.overflowY="visible"
-
         })
     }
-
 })
 function onSignIn(googleUser) {
     var profile = googleUser.getBasicProfile();
