@@ -121,20 +121,38 @@ body::-webkit-scrollbar-thumb{
     font-weight: bold;
     margin-left: 6px;
 }
-.div:nth-child(1){
+.div1{
     background-image: url(../img/f1.jpg);
 }
-.div:nth-child(2){
+.div2{
     background-image: url(../img/f2.jpg);
 }
-.div:nth-child(3){
+.div3{
     background-image: url(../img/f3.jpg);
 }
-.div:nth-child(4){
+.div4{
     background-image: url(../img/f4.jpg);
 }
-.div:nth-child(5){
+.div5{
     background-image: url(../img/f5.jpg);
+}
+.div6{
+    background-image: url(../img/f6.jpg);
+}
+.div7{
+    background-image: url(../img/f7.jpg);
+}
+.div8{
+    background-image: url(../img/f8.jpg);
+}
+.div9{
+    background-image: url(../img/f9.png);
+}
+.div10{
+    background-image: url(../img/f10.jpg);
+}
+.a2{
+    text-decoration: none;
 }
 .persona{
     width: 95%;
@@ -320,10 +338,7 @@ body::-webkit-scrollbar-thumb{
     }
 }
 @media (max-width:437px){
-    .div{
-        width: 95%;
-        height: 200px;
-    }
+   
     .n51 h1{
         font-size: 70px;
     }
@@ -333,6 +348,17 @@ body::-webkit-scrollbar-thumb{
     #a1,#a2,#a3,#a4,#a5,#a6{
         display: none;
     }
+}
+@media (max-width:535px){
+    .div{
+       width: 95%;
+       height: 200px;
+   }
+   .a2{
+           width: 95%;
+           height: 200px;
+           margin-bottom: 10px;
+   }
 }
 @media (max-width:414px){
     .name{
