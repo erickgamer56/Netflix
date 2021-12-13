@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body::-webkit-scrollbar{
     background-color: rgb(0, 0, 0);
     width: 3px;
@@ -295,10 +298,43 @@ body::-webkit-scrollbar-thumb{
     margin-left: 25px;
     margin-bottom: 15px;
 }
+@media (max-width:1070px){
+    .mudarn{
+        text-align: center;
+    }
+}
 @media (max-width:1005px){
     .n40{
         display: flex;
         justify-content: center;
+    }
+}
+@media (max-width:815px){
+    .mudarn{
+        font-size: 25px;
+
+    }
+    .flex{
+        flex-wrap: wrap;
+        overflow-y: scroll;
+    }
+    .perfi2{
+        display: none;
+    }
+    .perfi3{
+        width: 100%;
+    }
+    .pho{
+        width: 85%;
+    }
+    #mudar{
+        width: 85%;
+    }
+    .pios{
+        font-size: 8px;
+    }
+    .flex::-webkit-scrollbar{
+        display: none;
     }
 }
 @media (max-width:655px){
@@ -357,7 +393,7 @@ body::-webkit-scrollbar-thumb{
    .a2{
            width: 95%;
            height: 200px;
-           margin-bottom: 10px;
+           margin-bottom: 20px;
    }
 }
 @media (max-width:414px){
