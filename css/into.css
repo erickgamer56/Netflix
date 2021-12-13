@@ -317,6 +317,12 @@ body::-webkit-scrollbar-thumb{
     .flex{
         flex-wrap: wrap;
         overflow-y: scroll;
+        z-index: 6;
+        top: 0;
+    }
+    .persona{
+        top: 40px;
+        z-index: 6;
     }
     .perfi2{
         display: none;
