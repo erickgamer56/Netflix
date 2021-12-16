@@ -186,6 +186,7 @@ body{
     height: 66px;
     background-color: black;
     z-index: 2;
+    transition: background-color .6s ease;
 }
 .ini {
     display: flex;

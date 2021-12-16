@@ -470,3 +470,10 @@ document.getElementById("a5").addEventListener("click",function(){
     document.getElementById("a2").classList.remove("active")
     document.getElementById("a4").classList.remove("active")
 })
+window.addEventListener("scroll",function(){
+    if (document.documentElement.scrollTop >= 100){
+        document.getElementById("menu").style.backgroundColor="rgba(0, 0, 0, 0.555)"
+    }else{
+        document.getElementById("menu").style.backgroundColor=""
+    }
+})
